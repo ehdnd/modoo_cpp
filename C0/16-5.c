@@ -10,8 +10,8 @@ void print_str(char** ps) {
 }
 
 int main() {
-  char temp[80];
-  char* str[21] = {0};
+  char temp[80];        // 임시 char 배열
+  char* str[21] = {0};  // 문자열을 연결할 포인터 배열, 널 포인터로 초기화
   int i = 0;
 
   while (i < 20) {
